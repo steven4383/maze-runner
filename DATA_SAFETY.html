@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenFocus - Data Safety & Privacy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1967d2;
+            border-bottom: 2px solid #1967d2;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1967d2;
+            margin-top: 25px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 15px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #1967d2;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .permission {
+            background-color: #e8f0fe;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 3px solid #3c40c6;
+        }
+        .data-type {
+            background-color: #fef7e0;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 3px solid #f57c00;
+        }
+        .security {
+            background-color: #e8f5e9;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 3px solid #4caf50;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧘 ZenFocus - Data Safety & Privacy Information</h1>
+        <p><strong>Last Updated:</strong> April 15, 2026</p>
+        <p><strong>App Package:</strong> com.codeaxcel.zenfocus</p>
+
+        <!-- ===== DATA COLLECTION ===== -->
+        <h2>📊 Data Collection</h2>
+        
+        <div class="section">
+            <h3>Types of Data Collected</h3>
+            <p>ZenFocus collects the following data to provide and improve its services:</p>
+            
+            <div class="data-type">
+                <strong>1. App Usage Data</strong>
+                <ul>
+                    <li>Focus session duration and frequency</li>
+                    <li>Selected focus modes (Study, Work, Sleep, Custom)</li>
+                    <li>App blocking history (which apps were blocked)</li>
+                    <li>Feature usage (timer, unlock attempts, PIN usage)</li>
+                    <li>Crash reports and error logs</li>
+                </ul>
+            </div>
+
+            <div class="data-type">
+                <strong>2. Device Information</strong>
+                <ul>
+                    <li>Device model and OS version</li>
+                    <li>App version</li>
+                    <li>Unique device identifier (for analytics only)</li>
+                </ul>
+            </div>
+
+            <div class="data-type">
+                <strong>3. Purchase & Billing Data</strong>
+                <ul>
+                    <li>In-app purchase history</li>
+                    <li>Subscription status (Free/Pro)</li>
+                    <li>Transaction details (processed by Google Play Billing)</li>
+                </ul>
+            </div>
+
+            <div class="data-type">
+                <strong>4. Advertising Data</strong>
+                <ul>
+                    <li>Ad impressions and clicks (Google Mobile Ads)</li>
+                    <li>Advertising identifier</li>
+                    <li>Anonymized user interest data</li>
+                </ul>
+            </div>
+
+            <div class="data-type">
+                <strong>5. Accessibility Service Data</strong>
+                <ul>
+                    <li>Running app process names (to enforce app blocking)</li>
+                    <li>Window state events (for lock screen activation)</li>
+                    <li>NO personal information or text content is collected</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ===== DATA USAGE ===== -->
+        <h2>🎯 How We Use Your Data</h2>
+        
+        <div class="section">
+            <ul>
+                <li><strong>Functionality:</strong> Enable app blocking, timer management, and focus session tracking</li>
+                <li><strong>Analytics:</strong> Understand app usage patterns to improve features</li>
+                <li><strong>Personalization:</strong> Remember user preferences and settings</li>
+                <li><strong>Advertising:</strong> Serve relevant ads to free users (via Google Mobile Ads)</li>
+                <li><strong>Support:</strong> Troubleshoot crashes and technical issues</li>
+                <li><strong>Billing:</strong> Process in-app purchases and subscriptions</li>
+                <li><strong>Security:</strong> Prevent abuse and ensure app stability</li>
+            </ul>
+        </div>
+
+        <!-- ===== PERMISSIONS ===== -->
+        <h2>🔐 Permissions & Why We Need Them</h2>
+        
+        <div class="section">
+            <div class="permission">
+                <strong>INTERNET</strong>
+                <p>✓ Required for: Google Mobile Ads, crash reporting, analytics</p>
+            </div>
+
+            <div class="permission">
+                <strong>SYSTEM_ALERT_WINDOW</strong>
+                <p>✓ Required for: Displaying lock screen overlay during focus sessions</p>
+            </div>
+
+            <div class="permission">
+                <strong>BIND_ACCESSIBILITY_SERVICE</strong>
+                <p>✓ Required for: Detecting running apps and enforcing app blocks</p>
+                <p>⚠️ Note: This permission accesses accessibility events only, NOT personal content</p>
+            </div>
+
+            <div class="permission">
+                <strong>QUERY_ALL_PACKAGES</strong>
+                <p>✓ Required for: Fetching list of installed apps for blocking functionality</p>
+            </div>
+
+            <div class="permission">
+                <strong>COM.ANDROID.VENDING.BILLING</strong>
+                <p>✓ Required for: In-app purchase processing via Google Play Billing</p>
+            </div>
+        </div>
+
+        <!-- ===== DATA SHARING ===== -->
+        <h2>🤝 Data Sharing & Third Parties</h2>
+        
+        <div class="section">
+            <p>ZenFocus <strong>does NOT sell or share personal data</strong> with third parties. However, the following services may process data:</p>
+            
+            <h3>Third-Party Services:</h3>
+            <ul>
+                <li><strong>Google Mobile Ads:</strong> Serves advertisements and collects anonymous ad data</li>
+                <li><strong>Google Play Billing:</strong> Processes in-app purchases (billing only)</li>
+                <li><strong>Google Crash Reporting:</strong> Analyzes application crashes</li>
+                <li><strong>Firebase Analytics (if enabled):</strong> Anonymous usage statistics</li>
+            </ul>
+
+            <p>These services are bound by their respective privacy policies and comply with GDPR and other regulations.</p>
+        </div>
+
+        <!-- ===== DATA SECURITY ===== -->
+        <h2>🛡️ Data Security Measures</h2>
+        
+        <div class="security">
+            <ul>
+                <li><strong>Encryption:</strong> All data transmission uses HTTPS/TLS encryption</li>
+                <li><strong>Local Storage:</strong> User preferences and session data stored locally on device</li>
+                <li><strong>No Backend Server:</strong> Minimal server-side data storage</li>
+                <li><strong>PIN Protection:</strong> Sensitive features protected by user-set PIN</li>
+                <li><strong>Permission Minimization:</strong> Only essential permissions requested</li>
+                <li><strong>Regular Updates:</strong> Security patches deployed promptly</li>
+            </ul>
+        </div>
+
+        <!-- ===== USER RIGHTS ===== -->
+        <h2>👤 Your Privacy Rights</h2>
+        
+        <div class="section">
+            <h3>Data Access:</h3>
+            <p>Users can view all collected data through the app settings (Settings → Privacy).</p>
+
+            <h3>Data Deletion:</h3>
+            <ul>
+                <li>Uninstall the app to delete all local user data</li>
+                <li>Clear app cache in device settings to reset analytics</li>
+                <li>Contact us to delete associated account data (if any)</li>
+            </ul>
+
+            <h3>Opt-Out Options:</h3>
+            <ul>
+                <li><strong>Ads:</strong> Enable "Opt out of Ads Personalization" in Android Settings</li>
+                <li><strong>Analytics:</strong> Disable analytics in app settings (Settings → Data)</li>
+                <li><strong>Crash Reports:</strong> Disable auto-crash reporting in settings</li>
+            </ul>
+
+            <h3>GDPR & CCPA Compliance:</h3>
+            <p>ZenFocus respects user privacy rights under GDPR (EU), CCPA (California), and other regulations. Users can request:</p>
+            <ul>
+                <li>Data access and portability</li>
+                <li>Right to be forgotten / deletion</li>
+                <li>Restriction of processing</li>
+            </ul>
+        </div>
+
+        <!-- ===== DATA RETENTION ===== -->
+        <h2>⏰ Data Retention Policy</h2>
+        
+        <div class="section">
+            <ul>
+                <li><strong>Local App Data:</strong> Retained until app is uninstalled</li>
+                <li><strong>Analytics Data:</strong> Retained for 24-90 days (varies by provider)</li>
+                <li><strong>Crash Reports:</strong> Retained for 30-90 days</li>
+                <li><strong>Ad Data:</strong> Subject to Google Mobile Ads retention policy</li>
+                <li><strong>Billing Data:</strong> Retained per Google Play Policy and tax requirements</li>
+            </ul>
+        </div>
+
+        <!-- ===== CHILDREN'S PRIVACY ===== -->
+        <h2>👶 Children's Privacy</h2>
+        
+        <div class="section">
+            <p>ZenFocus is <strong>not intended for children under 13</strong> (or applicable age of digital consent in your country).</p>
+            <ul>
+                <li>We do not knowingly collect personal information from children</li>
+                <li>If we discover we've collected child data, we will delete it immediately</li>
+                <li>Parents/guardians concerned about data collection can contact us</li>
+            </ul>
+        </div>
+
+        <!-- ===== CONTACT & SUPPORT ===== -->
+        <h2>📧 Contact & Support</h2>
+        
+        <div class="section">
+            <p>For privacy concerns, data requests, or to report a security issue:</p>
+            <ul>
+                <li><strong>Email:</strong> support@codeaxcel.com</li>
+                <li><strong>In-App Support:</strong> Settings → Help & Support → Contact Us</li>
+                <li><strong>Data Request Form:</strong> Available in app settings</li>
+            </ul>
+            <p>We respond to all privacy inquiries within 30 days.</p>
+        </div>
+
+        <!-- ===== POLICY UPDATES ===== -->
+        <h2>📋 Policy Updates</h2>
+        
+        <div class="section">
+            <p>We may update this privacy policy occasionally. Users will be notified of significant changes through:</p>
+            <ul>
+                <li>In-app notifications</li>
+                <li>Updated app version notes</li>
+                <li>Email notification (if applicable)</li>
+            </ul>
+            <p>Continued use of the app after updates constitutes acceptance of the new policy.</p>
+        </div>
+
+        <!-- ===== COMMITMENT ===== -->
+        <h2>🌟 Our Commitment</h2>
+        
+        <div class="section">
+            <p>ZenFocus is built with privacy and security as core values. We are committed to:</p>
+            <ul>
+                <li>✅ Collecting only necessary data</li>
+                <li>✅ Being transparent about data practices</li>
+                <li>✅ Protecting user data with industry-standard security</li>
+                <li>✅ Respecting user control and consent</li>
+                <li>✅ Complying with all applicable privacy laws</li>
+                <li>✅ Never selling personal data to advertisers</li>
+            </ul>
+        </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <p style="text-align: center; color: #666; font-size: 0.9em;">
+            <strong>ZenFocus by CodeAxcel</strong><br>
+            Version 1.1.1 | Updated April 15, 2026<br>
+            <a href="https://www.zenfocus.app/privacy" style="color: #1967d2; text-decoration: none;">Full Privacy Policy</a>
+        </p>
+    </div>
+</body>
+</html>
